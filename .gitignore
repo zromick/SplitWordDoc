@@ -1,6 +1,5 @@
-venv/ 
-__pycache__/ 
-~$* 
-*.pdf 
-*.docx 
-!SplitWordDoc.py
+venv/
+__pycache__/
+~$*
+*.pdf
+*.docx
