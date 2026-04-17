@@ -25,7 +25,7 @@ A Python utility to split large Microsoft Word documents into smaller chunks of 
 Run the script from the command line by providing the input file and the target output directory.
 
 ```bash
-python SplitWordDoc.py <input.docx> <output_folder> [chunk_size] [format]
+python SplitWordDoc.py
 ```
 
 ### Parameters:
@@ -36,20 +36,6 @@ python SplitWordDoc.py <input.docx> <output_folder> [chunk_size] [format]
 | `output_folder`| Where the split files will be saved. | *Required* |
 | `chunk_size` | Number of pages per split file. | `500` |
 | `format` | Output type: `docx` or `pdf`. | `docx` |
-
-### Examples:
-
-**Split into 100-page Word documents:**
-
-```bash
-python SplitWordDoc.py manual.docx ./output_chunks 100 docx
-```
-
-**Split into 50-page PDF segments:**
-
-```bash
-python SplitWordDoc.py thesis.docx ./pdf_parts 50 pdf
-```
 
 ## 🔍 How it Works
 
